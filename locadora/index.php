@@ -9,9 +9,9 @@
 </head>
 <body class="bg-warning">
     <div class="container">
-        <div class="row gap-0">
-            <div class="col-lg-4 col-md-6 col-12 text-center">
-            <i class="bi bi-car-front-fill text-primary" style="font-size: 2rem"></i>
+        <div class="row gap-0 mt-5">
+            <div class="col-lg-4 col-md-6 col-12 text-center bg-light shadow">
+            <i class="bi bi-car-front-fill text-warning" style="font-size: 2rem"></i>
             <h1>Encontre o Veículo Certo Para Você</h1>
             <p>Preencha as informações abaixo</p>
             <form>
@@ -32,12 +32,14 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <button class="btn btn-primary w-100">Reservar</button>
+                    <button class="btn btn-warning w-100 text-light fw-bolder rounded-0">Fazer minha reserva</button>
                 </div>
             </form>
             </div>
             <div class="col-lg-8 col-md-6 col-12">
-                <img src="basico.png" class="img-fluid" alt="Carro básico">
+                <h1 class="ms-3">VOCÊ PODE ALUGAR ESTE VEÍCULO <br>POR R$ <span id="valor" class="text-primary fw-bolder">99</span> / DIA</h1>
+                <p class="ms-3 lead">Válido para todo territorio nacional</p>
+                <img src="basico.png" class="img-fluid w-75" alt="Carro básico" id="imagem">
             </div>
         </div>
     </div>

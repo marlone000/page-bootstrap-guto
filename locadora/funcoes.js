@@ -2,10 +2,13 @@ function Trocar(){
     let tipo = document.getElementById("veiculo").value 
 
     if(tipo == "Básico"){
-        Document.getElementById("imagem").src="basico.png"
+        document.getElementById("imagem").src="basico.png"
+        document.getElementById("valor").innerHTML="99"
     }else if(tipo == "Esporte"){
-        Document.getElementById("imagem").src="esporte.png"
+        document.getElementById("imagem").src="esporte.png"
+        document.getElementById("valor").innerHTML="159"
     }else{
-        Document.getElementById("imagem").src="completo.png"
+        document.getElementById("imagem").src="completo.png"
+        document.getElementById("valor").innerHTML="199"
     }
 }
